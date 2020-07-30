@@ -22,5 +22,8 @@ def assign_rooms(attendees_array)
 end
 
 def printer
+  assign_rooms.each do 
+end
+
 end
   

@@ -12,7 +12,7 @@ def batch_badge_creator(attendees_array)
   badge_array
 end
   
-def assign_rooms
+def assign_rooms(room_array)
   welcome_array = []
   attendees_array.each do |speaker|
     room_num = speaker.index + 1
